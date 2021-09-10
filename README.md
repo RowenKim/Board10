@@ -2,6 +2,7 @@
 
 ## 문제점
 <br>
+
 ### 1. 'SpringBoot' 가동시
 #### 오류: WriteDTO 경로 오류
 > 원인: WriteDAO.xml 내 resultType 경로 오류

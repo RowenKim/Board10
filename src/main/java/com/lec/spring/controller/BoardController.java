@@ -74,7 +74,12 @@ public class BoardController {
 	@GetMapping("/deleteOk.do")
 	public String deleteOk(int uid, Model model) {
 		
+		System.out.println("테스트1");
+		System.out.println("uid : " + uid);
 		model.addAttribute("result", boardService.deleteByUid(uid));
+		System.out.println("테스트2");
+		System.out.println("uid : " + uid);
+		
 		
 		return "board/deleteOk";		
 	}
